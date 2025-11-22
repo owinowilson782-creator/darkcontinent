@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARK LABS</title>
+    <link rel="stylesheet" href="style-2.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff1a"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">SPARK LABS</a></li>
+                <li class="hideonmobile"><a href="#">Home</a></li>
+                <li class="hideonmobile"><a href="#">About</a></li>
+                <li class="hideonmobile"><a href="#">Contact</a></li>
+                <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+       </header>
+
+       <section class="grid grid-1">
+        <figure>
+            <img src="sich.png" alt="">
+        </figure>
+        <figure>
+            <img src="3.png" alt="" class="autoRotate">
+        </figure>
+        <h2 class="autoShow">Introduce</h2>
+    </section>
+
+    <section class="grid grid-2">
+        <div class="autoShow">
+            <figure>
+                <img src="6.png" alt="">
+            </figure>
+            <p>
+                My company has the most stunning web design <br>
+               
+            </p>
+        </div>
+        <div class="autoShow">
+            1991: Tim Berners-Lee created the first web page, a simple text-based document without any styling.
+             Early 1990s: As the web evolved, the need for styling became evident. Early attempts at styling involved using HTML tags like <font> to control text appearance, leading to cumbersome and inconsistent designs across multiple pages.
+                The Birth of CSS:
+            1994: Håkon Wium Lie, working at CERN, proposed the concept of Cascading HTML Style Sheets, later shortened to Cascading Style Sheets (CSS). This proposal introduced the revolutionary "cascading" principle, allowing styles to originate from multiple sources (author, user, browser) and be applied based on a set of rules.
+            1996: CSS Level 1 (CSS1) became a W3C Recommendation in December. This marked the official standardization of C <br>
+            1998: CSS Level 2 (CSS2) was released, introducing more advanced features for positioning, media-specific styles, and accessibility.
+            Late 1990s - Early 2000s: Browser support for CSS evolved, with early adopters like Internet Explorer 3 and Netscape Navigator 4 beginning to implement CSS features. This period also saw the rise of cross-browser compatibility challenges due to varying implementations.
+            2000s onwards: CSS development continued with CSS Level 3 (CSS3), which departed from monolithic specifications and was published as a collection of separate modules. This modular approach allowed for more flexible and incremental development of new features, such as advanced selectors, transitions, animations, and responsive design capabilities. <br>
+           
+        </div>
+
+        <div class="autoShow">
+            <figure>
+                <img src="2.png" alt="">
+            </figure>
+            <p>
+                When an unknown printer took a galley of type and scrambled it to make a type specimen b <br>
+                only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+            </p>
+        </div>
+        <div class="autoShow">
+            <figure>
+                <img src="candy.png" alt="">
+            </figure>
+        </div>
+    </section>
+
+    <section class="grid grid-3">
+        <div class="autoBLur">LUNDEV</div>
+        <div class="autoBLur">DESIGNER</div>
+        <div class="autoBLur">DEVELOPER</div>
+        <div class="autoBLur">SUBCRIBE +</div>
+        <div class="autoBLur">SEE MORE &#8599;</div>
+    </section>
+</main>
+<footer>
+    <div class="grid grid-5 content">
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui, assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam! Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est nostrum eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui, assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam! Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique repellat. Deserunt delectus sint debitis ad sequi laboriosam inveum est nostrum eveniet aliquid unde distinctio, omnis sed vitae amet nobis atque.</div>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero labore numquam explicabo itaque qui, assumenda temporibus aspernatur ex quae corrupti, ipsa quod esse hic debitis quidem obcaecati aperiam! Incidunt blanditiis facilis a et provident vel aspernatur deleniti sint debitis numquam ducimus recusandae assumenda eligendi explicabo id unde quasi dicta ut cumque, tempore accusamus ipsa similique repellat. Deserunt delectus sint debitis ad sequi laboriosam inventore consequatur nemo neque cum est nos atque.</div>
+        <div>
+            <figure>
+                <img src="8.png" alt="">
+            </figure>
+        </div>
+    </div>
+</footer>
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+   </script>
+</body>
+</html>
+    
+</body>
+</html>
